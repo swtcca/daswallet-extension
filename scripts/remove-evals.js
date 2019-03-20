@@ -6,7 +6,7 @@ const fs = require('fs');
 const BUNDLE_DIR = path.join(__dirname, '../dist');
 const bundles = [
   'background.js',
-  'popup/popup.js',
+  'pages/popup.js',
   'options/options.js',
 ];
 

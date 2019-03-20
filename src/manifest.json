@@ -1,15 +1,20 @@
 {
-  "name": "full",
-  "description": "A Vue.js web extension",
+  "name": "DasWallet",
+  "description": "Das Wallet",
   "version": null,
   "manifest_version": 2,
+  "permissions": ["activeTab", "declarativeContent", "storage"],
   "icons": {
     "48": "icons/icon_48.png",
     "128": "icons/icon_128.png"
   },
   "browser_action": {
-    "default_title": "full",
-    "default_popup": "popup/popup.html"
+    "default_title": "DasWallet",
+    "default_popup": "pages/popup.html",
+    "default_icon": {
+      "48": "icons/icon_48.png",
+      "128": "icons/icon_128.png"
+    }
   },
   "background": {
     "scripts": [
